@@ -1,24 +1,30 @@
 package Basic_Structure_and_Syntax;
-// This is a simple Java program that prints "Hello, World!" to the console.
 
 public class HelloWorld {
-    //this is class declaration
 
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-        System.out.println("I'm a Java programmer!");
-        System.out.println("I love coding in Java!");
-        System.out.println("Java is a versatile programming language!");
-        System.out.println("136533140258l");
-        System.out.println("Addition");
-        System.out.println("2 + 3 = 5");
-        System.out.println("Subtraction");
-        System.out.println("6 - 1 = 5");
-        System.out.println("Multiplication");
-        System.out.println("4 * 5 = 20");
-        System.out.println("Division");
-        System.out.println("10 / 2 = 5");
-        
+        // Simple text lines (using \n at the end to force a new line)
+        System.out.print("Hello, World!\n");
+        System.out.print("I'm a Java programmer!\n");
+        System.out.print("I love coding in Java!\n");
+        System.out.print("Java is a versatile programming language!\n");
+        System.out.print(136533140258L + "\n"); 
 
+        // Math Operations using print
+        System.out.print("Addition: ");
+        System.out.print(2 + 3); 
+        System.out.print("\n"); // Moves to the next line manually
+
+        System.out.print("Subtraction: ");
+        System.out.print(6 - 1);
+        System.out.print("\n");
+
+        System.out.print("Multiplication: ");
+        System.out.print(4 * 5);
+        System.out.print("\n");
+
+        System.out.print("Division: ");
+        System.out.print(10 / 2);
+        System.out.print("\n");
     }
 }
