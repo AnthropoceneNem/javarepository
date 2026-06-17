@@ -26,5 +26,6 @@ public class HelloWorld {
         System.out.print("Division: ");//Division
         System.out.print(10 / 2);
         System.out.print("\n");
+        /*This is a multi-line comment */
     }
 }
