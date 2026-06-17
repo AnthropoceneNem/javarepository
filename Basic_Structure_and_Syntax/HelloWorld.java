@@ -11,19 +11,19 @@ public class HelloWorld {
         System.out.print(136533140258L + "\n"); 
 
        
-        System.out.print("Addition: ");
+        System.out.print("Addition: ");//Addition
         System.out.print(2 + 3); 
         System.out.print("\n");
 
-        System.out.print("Subtraction: ");
+        System.out.print("Subtraction: ");//Subtraction
         System.out.print(6 - 1);
         System.out.print("\n");
 
-        System.out.print("Multiplication: ");
+        System.out.print("Multiplication: ");//Multiplication
         System.out.print(4 * 5);
         System.out.print("\n");
 
-        System.out.print("Division: ");
+        System.out.print("Division: ");//Division
         System.out.print(10 / 2);
         System.out.print("\n");
     }
